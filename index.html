@@ -725,6 +725,7 @@ function doPost(e) {
     if (urlParams.get('slack')) localStorage.setItem('ns_slack_url', urlParams.get('slack').trim());
 
     let cloudUrl = localStorage.getItem('ns_cloud_url') || '';
+    https://script.google.com/a/macros/newstaff.co.il/s/AKfycbyDBNZt4Q3M6SoCKTtYaEofVO-frGPsrNMGIr4VE-ouG9TnGQlb_Fp_foK1idiDRifS3w/exec
     let slackUrl = localStorage.getItem('ns_slack_url') || '';
 
     let boardConfig = Object.assign({}, DEFAULT_CONFIG, JSON.parse(localStorage.getItem('ns_config_v7') || 'null') || {});
